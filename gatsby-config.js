@@ -8,15 +8,15 @@ module.exports = {
     subtitle: '',
     //  'jaegoon subtitle config', //메인화면 프로필
     copyright: '© All rights reserved.', //메인화면 프로필
-    disqusShortname: '',
+    disqusShortname: 'JAEGOON',
     menu: [
       {
-        label: 'Articles',
+        label: 'Home',
         path: '/',
       },
       {
         label: 'TIL(Today I Learned)',
-        path: '/categories/til/',
+        path: '/categories/til/', //path는 소문자여야 한다
       },
       {
         label: 'About me',
