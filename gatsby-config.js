@@ -11,7 +11,7 @@ module.exports = {
     disqusShortname: 'JAEGOON',
     menu: [
       {
-        label: 'Home',
+        label: 'Articles',
         path: '/',
       },
       {
