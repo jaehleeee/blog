@@ -15,8 +15,16 @@ module.exports = {
         path: '/',
       },
       {
+        label: 'Spring Study',
+        path: '/categories/spring/', //path는 소문자여야 한다
+      },
+      {
         label: 'TIL(Today I Learned)',
         path: '/categories/til/', //path는 소문자여야 한다
+      },
+      {
+        label: 'Blog',
+        path: '/categories/blog/', //path는 소문자여야 한다
       },
       {
         label: 'About me',
@@ -25,10 +33,10 @@ module.exports = {
     ],
     author: {
       name: 'Jaegoon',
-      email: '#',
+      email: 'newenws@naver.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'jaegoon',
       rss: '#',
       vk: '#',
     },
