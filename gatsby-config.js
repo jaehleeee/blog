@@ -34,9 +34,9 @@ module.exports = {
     author: {
       name: 'Jaegoon',
       email: 'newenws@naver.com',
+      github: 'jaegoon',
       telegram: '#',
       twitter: '#',
-      github: 'jaegoon',
       rss: '#',
       vk: '#',
     },
