@@ -19,6 +19,10 @@ module.exports = {
         path: '/categories/spring/', //path는 소문자여야 한다
       },
       {
+        label: '알고리즘',
+        path: '/categories/algorithm/', //path는 소문자여야 한다
+      },
+      {
         label: 'TIL(Today I Learned)',
         path: '/categories/til/', //path는 소문자여야 한다
       },
