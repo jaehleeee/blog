@@ -15,12 +15,20 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'Spring Study',
+        label: 'spring',
         path: '/categories/spring/', //path는 소문자여야 한다
+      },
+      {
+        label: '자료구조',
+        path: '/categories/자료구조/', //path는 소문자여야 한다
       },
       {
         label: '알고리즘',
         path: '/categories/algorithm/', //path는 소문자여야 한다
+      },
+      {
+        label: 'common',
+        path: '/categories/common/', //path는 소문자여야 한다
       },
       {
         label: 'TIL(Today I Learned)',
