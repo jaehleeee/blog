@@ -21,6 +21,8 @@ retrieveMethod(HttpServletRequest request){
 ```
 
 ## 2. @RequestParam, 단일 변수 매핑
+RequestParam는 클라이언트가 요청시 호출한 param과 controller에서 매핑할 변수를 1:1로 매핑한다.
+
 ```
 @RequestMapping("url/url")
 retrieveMethod(@RequestParam(value="name", required = false, defaultValue="jaejae") String name){
@@ -39,10 +41,12 @@ retrieveMethod(@RequestParam HashMap<string, string> map){
 ```
 
 ## 4. 커맨드 객체
-RequestParam을 이용하면 소스도 지저분해지고 소스 코드 유지보수에도 좋지 않기 때문에
-여러 데이터를 담을 데이터 모델 클래스를 만든다. (getter, setter 포함)
-스프링에서는 파라미터 변수명과 데이터 모델 클래스의 필드 변수명이 같으면
+RequestParam처럼 변수를 1:1로 매핑하는 것이 아니라
+DTO 같은 객체의 프로퍼티에 변수를 매핑해서 한꺼번에 Controller로 가져온다.
+
+스프링에서 파라미터 변수명과 객체의 변수명이 같으면
 파라미터를 자동으로 매핑시켜 준다.
+
 ```
 @RequestMapping("url/url")
 retrieveMethod(User user){
@@ -54,6 +58,7 @@ retrieveMethod(User user){
 ## 5. @ModelAttribute
 커맨드 객체의 이름이 너무 길 경우 view 단에서 사용하기 어려울때
 커맨드 객체가 view 단에서 사용될 이름을 지정한다.
+생략가능하다.
 ```
 @RequestMapping("url/url")
 retrieveMethod(@ModelAttribute("us") User user){
