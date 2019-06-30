@@ -19,6 +19,10 @@ module.exports = {
         path: '/categories/spring/', //path는 소문자여야 한다
       },
       {
+        label: '운영체제',
+        path: '/categories/os/', //path는 소문자여야 한다
+      },
+      {
         label: '자료구조',
         path: '/categories/자료구조/', //path는 소문자여야 한다
       },
