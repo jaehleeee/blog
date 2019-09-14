@@ -3,7 +3,7 @@ title: 운영체제7 - 세그멘테이션과 빈공간 관리
 date: "2019-07-24"
 layout: post
 draft: false
-path: "/posts/OS/segmentation"
+path: "/posts/OS"
 category: "OS"
 tags:
   - "OS"

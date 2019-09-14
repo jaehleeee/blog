@@ -4,7 +4,7 @@ const pxtorem = require('postcss-pxtorem')
 module.exports = {
   siteMetadata: {
     url: 'https://jaegoon.netlify.com',
-    title: 'jaegoon blog', //브라우저 탭
+    title: 'JAEGOON blog', //브라우저 탭
     subtitle: '',
     //  'jaegoon subtitle config', //메인화면 프로필
     copyright: '© All rights reserved.', //메인화면 프로필
@@ -48,7 +48,7 @@ module.exports = {
       },
     ],
     author: {
-      name: 'Jaegoon',
+      name: 'jaegoon',
       email: 'newenws@naver.com',
       github: 'jaegoon',
       telegram: '#',
