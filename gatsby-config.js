@@ -35,10 +35,6 @@ module.exports = {
         path: '/categories/common/', //path는 소문자여야 한다
       },
       {
-        label: 'TIL(Today I Learned)',
-        path: '/categories/til/', //path는 소문자여야 한다
-      },
-      {
         label: 'Blog',
         path: '/categories/blog/', //path는 소문자여야 한다
       },
