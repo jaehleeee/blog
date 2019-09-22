@@ -3,7 +3,7 @@ title: 운영체제9 - 페이지 테이블의 보완
 date: "2019-08-02"
 layout: post
 draft: false
-path: "/posts/OS"
+path: "/posts/OS/multi"
 category: "OS"
 tags:
   - "OS"
