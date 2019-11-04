@@ -31,6 +31,10 @@ module.exports = {
         path: '/categories/algorithm/', //path는 소문자여야 한다
       },
       {
+        label: 'Vue',
+        path: '/categories/vue/', //path는 소문자여야 한다
+      },
+      {
         label: 'common',
         path: '/categories/common/', //path는 소문자여야 한다
       },
