@@ -15,19 +15,19 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'spring',
+        label: 'Spring',
         path: '/categories/spring/', //path는 소문자여야 한다
       },
       {
-        label: '운영체제',
+        label: 'OS',
         path: '/categories/os/', //path는 소문자여야 한다
       },
       {
-        label: '자료구조',
+        label: 'Data-Structure',
         path: '/categories/자료구조/', //path는 소문자여야 한다
       },
       {
-        label: '알고리즘',
+        label: 'Algorithm',
         path: '/categories/algorithm/', //path는 소문자여야 한다
       },
       {
@@ -35,7 +35,7 @@ module.exports = {
         path: '/categories/vue/', //path는 소문자여야 한다
       },
       {
-        label: 'common',
+        label: 'Common',
         path: '/categories/common/', //path는 소문자여야 한다
       },
       {
